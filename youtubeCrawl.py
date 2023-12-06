@@ -44,7 +44,7 @@ if __name__ == '__main__':
         innerHeight = driver.execute_script('return window.document.documentElement.scrollHeight;')
         
         # 設置希望停止的高度 或 已經滑到底
-        if offset >= 3000 or offset == innerHeight:
+        if offset >= 300000 or offset == innerHeight:
             break
 
     # 取得每一筆資訊
